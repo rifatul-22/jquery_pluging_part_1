@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery Plugging</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="filter">
+        <div class="container">
+            <ul class="list-group list-group-horizontal justify-content-center m-5 blog_filter_content">
+                <li class="list-group-item active" data-filter="all">Home</li>
+                <li class="list-group-item" data-filter="education">education </li>
+                <li class="list-group-item" data-filter="knoladge">knoladge</li>
+                <li class="list-group-item" data-filter="gpa">gpa</li>
+              </ul>
+            <div class="row blog_filter">
+                <div class="col-lg-3 filtr-item" data-category="gpa">
+                    <img src="img/filter_1.jpeg" class="img-fluid my-5">
+                </div>
+                <div class="col-lg-3 filtr-item" data-category="Home">
+                    <img src="img/filter_2.jpeg" class="img-fluid my-5">
+                </div>
+                <div class="col-lg-3 filtr-item" data-category="knoladge">
+                    <img src="img/filter_1.jpeg" class="img-fluid my-5">
+                </div>
+                <div class="col-lg-3 filtr-item" data-category="education">
+                    <img src="img/filter_2.jpeg" class="img-fluid my-5">
+                </div>
+                <div class="col-lg-3 filtr-item" data-category="Home, knoladge">
+                    <img src="img/filter_1.jpeg" class="img-fluid my-5">
+                </div>
+                <div class="col-lg-3 filtr-item" data-category="gpa,home,knoladge">
+                    <img src="img/filter_2.jpeg" class="img-fluid my-5">
+                </div>
+                <div class="col-lg-3 filtr-item" data-category="education,home,gpa">
+                    <img src="img/filter_1.jpeg" class="img-fluid my-5">
+                </div>
+                <div class="col-lg-3 filtr-item" data-category="gpa,education,knoladge,home">
+                    <img src="img/filter_2.jpeg" class="img-fluid my-5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video">
+        <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-lg-6 text-center">
+                <img src="img/filter_2.jpeg">
+                <a class="venobox my-video-link" data-vbtype="video" data-autoplay="true" href="https://youtu.be/GogcDtMpgMc"><i class="fas fa-play"></i></a>
+               </div>
+            </div>
+        </div>
+    </section>
+    <section id="text">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text_content">
+                    <h1 data-aos="fade-right" data-aos-duration="5000">hello world</h1>
+                    <h2 data-aos="fade-left" data-aos-duration="5000">AOS Plugging</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="images">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <a class="venobox" data-gall="gallery01" href="img/img-big-1.jpg"><img src="img/img-small-1.jpg"></a>
+                </div>
+                <div class="col-lg-3">
+                    <a class="venobox" data-gall="gallery01" href="img/img-big-2.jpg"><img src="img/img-small-2.jpg"></a>
+                </div>
+                <div class="col-lg-3">
+                    <a class="venobox" data-gall="gallery01" href="img/img-big-3.jpg"><img src="img/img-small-3.jpg"></a>
+                </div>
+                <div class="col-lg-3">
+                    <a class="venobox" data-gall="gallery01" href="img/img-big-4.jpg"><img src="img/img-small-4.jpg"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/jquery.filterizr.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
